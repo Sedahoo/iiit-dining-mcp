@@ -49,6 +49,8 @@ pip install "mcp" "httpx"
 1. Log in at <https://dining.iiit.ac.in/>.
 2. Go to **Settings → Auth Keys → Create Auth key**.
 3. Copy the key (you can only see it once).
+4. Copy `.env.example` to `.env` and paste the key as `DINING_AUTH_KEY`,
+   or pass it in your MCP config's `env` as shown below.
 
 ### Configure Claude Desktop / Claude Code
 
